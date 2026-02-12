@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Camisetas" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/brand_on_primary</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="colorSurface">@color/list_bg</item>
+        <item name="colorOnSurface">@color/brand_on_surface</item>
+        <item name="android:colorBackground">@color/list_bg</item>
+        <item name="colorOnBackground">@color/brand_on_surface</item>
+        <item name="android:statusBarColor">@color/toolbar_bg</item>
+        <item name="android:navigationBarColor">@color/bottom_nav_bg</item>
+    </style>
+</resources>

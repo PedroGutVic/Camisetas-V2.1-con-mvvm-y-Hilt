@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="brand_bg">#6A00FF</color>
+    <color name="brand_on_bg">#FFFFFF</color>
+    <color name="brand_surface">#4A00B5</color>
+    <color name="brand_on_surface">#FFFFFF</color>
+    <color name="brand_primary">#6A00FF</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_accent">#00C853</color>
+    <color name="brand_accent_dark">#00A844</color>
+    <color name="list_bg">#2B2B2B</color>
+    <color name="card_bg">#3A3A3A</color>
+    <color name="card_text">#FFFFFF</color>
+    <color name="toolbar_bg">#6A00FF</color>
+    <color name="bottom_nav_bg">#2B2B2B</color>
+    <color name="drawer_bg">#202020</color>
+    <color name="drawer_item_unchecked">#BDBDBD</color>
+    <color name="drawer_item_checked">#00C853</color>
+</resources>

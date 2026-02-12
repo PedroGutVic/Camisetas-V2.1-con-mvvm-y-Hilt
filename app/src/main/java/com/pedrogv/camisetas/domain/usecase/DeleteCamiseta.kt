@@ -1,0 +1,12 @@
+package com.pedrogv.camisetas.domain.usecase
+
+import com.pedrogv.camisetas.domain.repository.CamisetaRepository
+import javax.inject.Inject
+
+class DeleteCamiseta @Inject constructor(
+    private val repository: CamisetaRepository
+) {
+    operator fun invoke(id: Int) {
+        repository.deleteCamiseta(id)
+    }
+}

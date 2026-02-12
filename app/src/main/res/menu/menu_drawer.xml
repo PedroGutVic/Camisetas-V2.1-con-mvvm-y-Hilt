@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/camisetasListFragment"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_camisetas" />
+        <item
+            android:id="@+id/sampleOneFragment"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_sample_one" />
+        <item
+            android:id="@+id/sampleTwoFragment"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_sample_two" />
+        <item
+            android:id="@+id/logoutFragment"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

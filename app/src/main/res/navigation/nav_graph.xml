@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/camisetasListFragment">
+
+    <fragment
+        android:id="@+id/camisetasListFragment"
+        android:name="com.pedrogv.camisetas.presentation.list.CamisetasListFragment"
+        android:label="@string/title_camisetas_list">
+        <action
+            android:id="@+id/action_camisetasListFragment_to_camisetaDetailFragment"
+            app:destination="@id/camisetaDetailFragment" />
+        <action
+            android:id="@+id/action_camisetasListFragment_to_camisetaFormFragment"
+            app:destination="@id/camisetaFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/camisetaDetailFragment"
+        android:name="com.pedrogv.camisetas.presentation.detail.CamisetaDetailFragment"
+        android:label="@string/title_camiseta_detail">
+        <argument
+            android:name="recyclerPosition"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/camisetaFormFragment"
+        android:name="com.pedrogv.camisetas.presentation.form.CamisetaFormFragment"
+        android:label="@string/title_camiseta_form">
+        <argument
+            android:name="camisetaId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sampleOneFragment"
+        android:name="com.pedrogv.camisetas.presentation.sample.SampleOneFragment"
+        android:label="@string/title_sample_one" />
+
+    <fragment
+        android:id="@+id/sampleTwoFragment"
+        android:name="com.pedrogv.camisetas.presentation.sample.SampleTwoFragment"
+        android:label="@string/title_sample_two" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.pedrogv.camisetas.presentation.options.SettingsFragment"
+        android:label="@string/title_settings" />
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.pedrogv.camisetas.presentation.options.SearchFragment"
+        android:label="@string/title_search" />
+
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.pedrogv.camisetas.presentation.logout.LogoutFragment"
+        android:label="@string/title_logout" />
+</navigation>
